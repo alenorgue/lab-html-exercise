@@ -56,18 +56,21 @@ nav a {
 }
 
 .navbar2 {
-    padding: 0 25px;
+    padding: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 10px;
     border-bottom: 1px solid lightgray;
 }
+.links {margin-right: 15px;
+padding-right: 10px;
+display: inline-flex;
+gap: 10px;}
 
 .navbar-nav2 {
     display: flex;
-    gap: 0px;
-}
+    gap: 0px;}
 
 form {
     max-width: 70%;
