@@ -1,89 +1,132 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 
 body {
-  font-family: 'Poppins';
+    font-family: 'Poppins';
 }
 
-header > div {
+header>div {
     padding: 0 25px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid lightgray;
-  }
-  
-  .navbar1 {padding: 0 25px;
+}
+
+.navbar1 {
+    padding: 0 25px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid lightgray;}
+    border-bottom: 1px solid lightgray;
+}
 
-  nav {
+nav {
     width: 600px;
-  }
-  
-  nav ul {
+}
+
+nav ul {
     list-style: none;
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-  
-  nav a {
+}
+
+nav a {
     text-decoration: none;
     color: black;
-  }
-  
-  #black-heart {
+}
+
+#black-heart {
     width: 20px;
     margin-right: 1rem;
-  }
-  #npm-logo { width: 80px;
+}
+
+#npm-logo {
+    width: 80px;
     height: 25px;
     margin-right: 1rem;
 
-  }
-  #magnifying-glass { width: 25px;
-    margin-right: 0;
-    background-color: rgba(0,0,0,.05);
+}
 
-  }
-  .navbar2 {padding: 0 25px;
+#magnifying-glass {
+    width: 25px;
+    margin-right: 0;
+    background-color: rgba(0, 0, 0, .05);
+
+}
+
+.navbar2 {
+    padding: 0 25px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 10px;
-    border-bottom: 1px solid lightgray;}
+    border-bottom: 1px solid lightgray;
+}
 
-.navbar-nav2 {display: flex;
+.navbar-nav2 {
+    display: flex;
     gap: 0px;
 }
 
-    form {
-        max-width: 70%;
-        min-width: 650px;
-        display: flex;
-        gap: 0px;
-    }
-    
-    input[type="search"] {
-        flex: 1;
-        padding: 1px;
-        font-size: 16px;
-        border: 2px solid #ccc;
-        background-color: rgba(0,0,0,.05) ;
-      
-    }
-    
-    button {
-        background: #fb3e44;
-        color: white;
-        border: none;
-        padding: 8px 12px;
-        cursor: pointer;
-      
-    }
+form {
+    max-width: 70%;
+    min-width: 650px;
+    display: flex;
+    gap: 0px;
+}
 
-    a {text-decoration: none;
-        color: black;}
+input[type="search"] {
+    flex: 1;
+    padding: 1px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    background-color: rgba(0, 0, 0, .05);
+
+}
+
+.button__search {
+    background: #fb3e44;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+.section1 {display: flex;
+    flex-direction: column;
+    height: 600px;
+background-color: rgba(232,217,217,.3);
+justify-content: center;
+align-items: center;
+}
+h1 {font-size: 4rem;
+font-weight: 900;
+padding: 10px;
+margin-bottom: 0px;
+margin-top: 0px;}
+
+.button__see-plans {  background: #FB3B49;
+    box-shadow: 8px 8px 0 rgba(251,59,73,.2);
+    color: white;
+    border: none;
+    padding: 8px 30px;
+    cursor: pointer;
+    margin-right: 15px;
+}
+.button__join-for-free { 
+    background: rgb(249, 249, 249);
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 8px 30px;
+    cursor: pointer;
+}
+article {max-width: 40%;
+padding: 35px;
+text-align: center;}
 
