@@ -118,6 +118,7 @@ margin-top: 0px;}
     padding: 8px 30px;
     cursor: pointer;
     margin-right: 15px;
+    font-size: 1.1rem;
 }
 .button__join-for-free { 
     background: rgb(249, 249, 249);
@@ -125,6 +126,7 @@ margin-top: 0px;}
     border: none;
     padding: 8px 30px;
     cursor: pointer;
+    font-size: 1.1rem;
 }
 article.article1 {max-width: 40%;
 padding: 35px;
@@ -150,4 +152,31 @@ h2 {font-size: 2rem;
      article.article2 {max-width: 60%;
         padding: 35px;
         text-align: center;}
-        
+
+
+#zero-configuration {width: 35px;}
+#team-management {width: 35px;}
+#familiar-features {width: 35px;}
+#npm-audit {width: 35px;}
+
+.section3 {display: flex;
+            flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+        height: 500px;}
+
+.boxes {display: flex;}
+
+.features {padding: 15px;}
+h3 {color: #ED1C24;}
+
+.button__create-an-org {
+    background: #000000;
+    color: white;
+    border: none;
+    padding: 12px 82px;
+    cursor: pointer;
+    box-shadow: 8px 8px 0 rgba(128,83,35,.2);
+    margin-top: 30px;
+    font-size: 1.1rem;
+}
